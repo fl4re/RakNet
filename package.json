@@ -1,0 +1,15 @@
+{
+  "name": "@sb/raknet",
+  "version": "4.0.81",
+  "description": "raknet library packaged for npm. This package contails libs for all platforms",
+  "repository": "https://github.com/fl4re/RakNet/",
+  "binary": {
+    "file": "{package_name}/{package_version}/{platform}-{arch}.tar.gz",
+    "host": "https://registry-node.starbreeze.com/-/releases",
+    "path": "install/**"
+  },
+  "scripts": {
+    "install": "prades install"
+  },
+  "license": "bsd"
+}
